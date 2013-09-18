@@ -2,7 +2,7 @@
 // Tutorial:    Piping Twitter Streaming API into MongoDB
 // Creator:     Ryan S Mullins (RyanMullins@psu.edu)
 // Course:      Geography 597A - Visual Analytics Seminar
-// Semester:    Spring 2013
+// Semester:    Fall 2013
 // Date:        19 Sep 2013
 // License:     
 // Desc:        
