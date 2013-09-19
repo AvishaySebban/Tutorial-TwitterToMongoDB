@@ -175,6 +175,8 @@ In the previous step you installed the MongoDB driver for Node.js. Now we need t
 
 ```
 
+This is also a good time to substitute in your OAuth information to the application. OAuth for Twitter API access requires a consumer key, consumer secret, access token, and access token secret. These items can be attained form the [Twitter Developer](http://dev.twitter.com) pages; simply sign in and create a new application, create a new application on your "My Applications" page, have it generate a new access token, and copy and paste them to replace the 'CK-000xxx', 'CS-000xxx', 'AT-000xxx', and 'AS-000xxx' respectively.
+
 ### Step 2: Connecting to MongoDB Server
 
 Now that we have the MongoDB driver accessible, let's use it. Before the Processing Functions section add in the following lines of code. 

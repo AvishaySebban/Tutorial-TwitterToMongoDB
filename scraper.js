@@ -136,8 +136,8 @@ mdb.open(function (err, db) {
         var oa = new oAuth(
             "https://api.twitter.com/oauth/request_token",
             "https://api.twitter.com/oauth/access_token",
-            "32cYIJ8vePHFH3adpjY3Yg",
-            "ob6hyxYXvK46tqtMYKTx0uc5d56sTWQlQS3K0nC1UvE",
+            "CK-000xxx",
+            "CS-000xxx",
             "1.0A",
             "http://demos.ryanmullins.org/streamToMongoDB",
             "HMAC-SHA1"
@@ -149,8 +149,8 @@ mdb.open(function (err, db) {
 
         var request = oa.get(
             "https://stream.twitter.com/1.1/statuses/filter.json?locations=-77.9,40.7,-77.8,40.8",
-            "14375426-e77fVEwTZLCB0b3AP6ITbeRa7a1BLY6iPWlJiemTT",
-            "kQOfzMGVng3oj7mVVZImnAC1sxpMrbs2cYLrfQBY"
+            "AT-000xxx",
+            "AS-000xxx"
         );
 
         // Adding a callback function to handle responses to the request, and 
