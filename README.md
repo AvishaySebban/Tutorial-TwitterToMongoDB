@@ -75,7 +75,7 @@ Once homebrew is installed, simply type the following command into a terminal.
 
     $ brew update && brew install mongodb 
 
-```shell
+```
 
 To install Node.js using homebrew enter the following command into a terminal.
 
