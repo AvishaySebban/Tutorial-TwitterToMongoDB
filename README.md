@@ -146,11 +146,11 @@ This demo is built upon Node.js and in order to interface with the MongoDB Sever
 ```shell
 
     $ npm install mongodb
-    $ npm install ouath
+    $ npm install oauth
 
     # ---- Or, to do it all at once ----
 
-    $ npm install mongodb && npm install ouath
+    $ npm install mongodb && npm install oauth
 
 ```
 

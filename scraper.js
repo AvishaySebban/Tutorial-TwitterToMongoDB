@@ -105,7 +105,7 @@ mdb.open(function (err, db) {
                         // exists in the collection.
 
                         collection.insert(parsedTweet, function (err, doc) {
-                            if (err) {
+                            if (err) { 
                                 console.log("Error writing document to database. Most likely a duplicate.");
                             }
                         });
